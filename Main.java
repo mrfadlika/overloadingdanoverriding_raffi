@@ -16,6 +16,8 @@ class Orang {
         System.out.println("Nama: " + nama);
         if(umur != 0) {
             System.out.println("Umur: " + umur);
+        } else {
+            System.out.println("Umur : -");
         }
     }
 }
@@ -42,6 +44,8 @@ class Dosen extends Orang {
         super.Info();
         if(nip != 0) {
             System.out.println("NIP: " + nip);
+        } else {
+            System.out.println("NIP: -");
         }
     }
 }
